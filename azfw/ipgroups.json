@@ -12,34 +12,7 @@
             "tags": { "Zone": "MixedZones" },
             "properties": {
                 "ipAddresses": [
-                    "10.3.11.5",
-			"10.3.11.9",
-			"10.3.11.8",
-			"10.3.11.7"
-		]
-            }
-        },
-	{
-            "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-08-01",
-            "name": "DevRedis",
-            "location": "westus",
-            "tags": { "Zone": "Dev" },
-            "properties": {
-                "ipAddresses": [
-                    "172.16.10.0/24"
-                ]
-            }
-        },
-        {
-            "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-08-01",
-            "name": "StageRedis",
-            "location": "westus",
-            "tags": { "Zone": "Stage" },
-            "properties": {
-                "ipAddresses": [
-                    "172.22.10.0/24"
+                    "172.16.0.0/13"
                 ]
             }
         },
@@ -51,10 +24,8 @@
             "tags": { "Zone": "Dev" },
             "properties": {
                 "ipAddresses": [
-                    "10.3.11.5",
-			"10.3.11.9",
-			"10.3.11.8",
-			"10.3.11.7"                ]
+                    "172.16.0.0/16"
+                ]
             }
         },
         {
@@ -65,10 +36,8 @@
             "tags": { "Zone": "Hub" },
             "properties": {
                 "ipAddresses": [
-                    "10.3.11.5",
-			"10.3.11.9",
-			"10.3.11.8",
-			"10.3.11.7"                ]
+                    "172.17.0.0/16"
+                ]
             }
         },
         {
@@ -152,6 +121,7 @@
             "properties": {
                 "ipAddresses": [
                     "192.168.16.0/21",
+                    "10.0.0.0/8",
                     "172.16.0.0/13"
                 ]
             }
@@ -293,9 +263,7 @@
             "tags": { "Zone": "Prod" },
             "properties": {
                 "ipAddresses": [
-                    "172.21.60.0/24",
-					"172.19.61.0/24",
-					"172.19.62.0/24"
+                    "172.21.60.0/24"
                 ]
             }
         },
@@ -427,13 +395,7 @@
             "tags": { "Zone": "Prod" },
             "properties": {
                 "ipAddresses": [
-                    "172.21.5.0/24",
-					"172.16.6.0/24",
-					"172.16.7.0/24",
-					"172.16.8.0/24",
-					"172.16.9.0/24",
-					"172.16.1.0/24",
-					"172.16.2.0/24"
+                    "172.21.5.0/24"
                 ]
             }
         },
@@ -560,6 +522,30 @@
             "properties": {
                 "ipAddresses": [
                     "10.3.10.71"
+                ]
+            }
+        },
+        {
+            "type": "Microsoft.Network/ipGroups",
+            "apiVersion": "2020-08-01",
+            "name": "DevRedis",
+            "location": "westus",
+            "tags": { "Zone": "Dev" },
+            "properties": {
+                "ipAddresses": [
+                    "172.16.10.0/24"
+                ]
+            }
+        },
+        {
+            "type": "Microsoft.Network/ipGroups",
+            "apiVersion": "2020-08-01",
+            "name": "StageRedis",
+            "location": "westus",
+            "tags": { "Zone": "Stage" },
+            "properties": {
+                "ipAddresses": [
+                    "172.22.10.0/24"
                 ]
             }
         },
@@ -703,7 +689,7 @@
             "tags": { "Zone": "OnPrem" },
             "properties": {
                 "ipAddresses": [
-                    "10.3.130.4"
+                    "10.3.10.123"
                 ]
             }
         },
@@ -825,10 +811,7 @@
             "tags": { "Zone": "OnPrem" },
             "properties": {
                 "ipAddresses": [
-                    "10.3.11.5",
-					"10.3.11.9",
-					"10.3.11.8",
-					"10.3.11.7"
+                    "10.3.11.5"
                 ]
             }
         },
@@ -864,8 +847,7 @@
             "tags": { "Zone": "Hub" },
             "properties": {
                 "ipAddresses": [
-                    "172.20.1.6",
-		    "192.168.0.0/24"
+                    "172.20.1.6"
                 ]
             }
         },
