@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'WebApp-RG'
     location: 'Central US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/zacabrer/azfw-repo/main/azfw/azuredeploy.json?token=ANDHKWLKNE3RI2B55GOB3KTAMCZCY'
+    csmFileLink: 'https://raw.githubusercontent.com/zacabrer/azfw-repo/main/azfw/azuredeploy.json'
     overrideParameters: '-projectName azfw'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
