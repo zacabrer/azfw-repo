@@ -6,19 +6,19 @@
     "resources": [
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "AzureSubnets",
             "location": "westus",
             "tags": { "Zone": "MixedZones" },
             "properties": {
                 "ipAddresses": [
-                    "172.16.0.0/16"
+                    "172.16.0.0/13"
                 ]
             }
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DevSubnets",
             "location": "westus",
             "tags": { "Zone": "Dev" },
@@ -30,7 +30,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DRHubSubnets",
             "location": "westus",
             "tags": { "Zone": "Hub" },
@@ -42,7 +42,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DRSubnets",
             "location": "westus",
             "tags": { "Zone": "Prod" },
@@ -54,7 +54,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "ITHubSubnets",
             "location": "westus",
             "tags": { "Zone": "Hub" },
@@ -66,7 +66,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "ProdSubnets",
             "location": "westus",
             "tags": { "Zone": "Prod" },
@@ -78,7 +78,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "StageSubnets",
             "location": "westus",
             "tags": { "Zone": "Stage" },
@@ -90,7 +90,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "OnPrem",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -102,7 +102,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "EntVPN",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -114,7 +114,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "EntTrustedSites",
             "location": "westus",
             "tags": { "Zone": "MixedZones" },
@@ -128,7 +128,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "ExhcangeServers",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -142,7 +142,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DomainControllers",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -156,7 +156,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "Solarwinds",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -172,7 +172,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DNSForwarders",
             "location": "westus",
             "tags": { "Zone": "Hub" },
@@ -185,7 +185,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DevInternalASE",
             "location": "westus",
             "tags": { "Zone": "Dev" },
@@ -197,7 +197,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "StageInternalASE",
             "location": "westus",
             "tags": { "Zone": "Stage" },
@@ -209,7 +209,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "ProdInternalASE",
             "location": "westus",
             "tags": { "Zone": "Prod" },
@@ -221,7 +221,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DRInternalASE",
             "location": "westus",
             "tags": { "Zone": "Prod" },
@@ -233,7 +233,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DevExternalASE",
             "location": "westus",
             "tags": { "Zone": "Dev" },
@@ -245,7 +245,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "StageExternalASE",
             "location": "westus",
             "tags": { "Zone": "Stage" },
@@ -257,7 +257,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "ProdExternalASE",
             "location": "westus",
             "tags": { "Zone": "Prod" },
@@ -269,7 +269,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DRExternalASE",
             "location": "westus",
             "tags": { "Zone": "Prod" },
@@ -281,7 +281,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "csvav1-19",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -293,7 +293,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DevOLBSymConnect",
             "location": "westus",
             "tags": { "Zone": "Dev" },
@@ -305,7 +305,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "StageOLBSymConnect",
             "location": "westus",
             "tags": { "Zone": "Stage" },
@@ -317,7 +317,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "ProdOLBSymConnect",
             "location": "westus",
             "tags": { "Zone": "Prod" },
@@ -329,7 +329,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DROLBSymConnect",
             "location": "westus",
             "tags": { "Zone": "Prod" },
@@ -341,7 +341,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "SCCM",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -353,7 +353,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DevAPIInternalSubnet",
             "location": "westus",
             "tags": { "Zone": "Dev" },
@@ -365,7 +365,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DevAppVMSubnet",
             "location": "westus",
             "tags": { "Zone": "Dev" },
@@ -377,7 +377,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "StageAppVMSubnet",
             "location": "westus",
             "tags": { "Zone": "Stage" },
@@ -389,7 +389,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "ProdAppVMSubnet",
             "location": "westus",
             "tags": { "Zone": "Prod" },
@@ -401,7 +401,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DRAppVMSubnet",
             "location": "westus",
             "tags": { "Zone": "Prod" },
@@ -413,7 +413,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "SIOLBDataVM",
             "location": "westus",
             "tags": { "Zone": "Dev" },
@@ -425,7 +425,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "csvtfs1-18",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -437,7 +437,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "AdminVLAN18",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -449,7 +449,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "ProdJumpBox",
             "location": "westus",
             "tags": { "Zone": "Hub" },
@@ -461,7 +461,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DRJumpBox",
             "location": "westus",
             "tags": { "Zone": "Hub" },
@@ -473,7 +473,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DevOLBSQL",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -487,7 +487,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "StageOLBSQL",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -501,7 +501,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "ProdOLBSQL",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -515,7 +515,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "cmps-vmcvcomsrv",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -527,7 +527,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DevRedis",
             "location": "westus",
             "tags": { "Zone": "Dev" },
@@ -539,7 +539,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "StageRedis",
             "location": "westus",
             "tags": { "Zone": "Stage" },
@@ -551,7 +551,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "ProdRedis",
             "location": "westus",
             "tags": { "Zone": "Prod" },
@@ -563,7 +563,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DRRedis",
             "location": "westus",
             "tags": { "Zone": "Prod" },
@@ -575,7 +575,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "Symitar",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -587,7 +587,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "SymTest",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -599,7 +599,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "SymTrain",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -611,7 +611,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DevSQLPE",
             "location": "westus",
             "tags": { "Zone": "Dev" },
@@ -623,7 +623,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "StageSQLPE",
             "location": "westus",
             "tags": { "Zone": "Stage" },
@@ -635,7 +635,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "ProdSQLPE",
             "location": "westus",
             "tags": { "Zone": "Prod" },
@@ -647,7 +647,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DRSQLPE",
             "location": "westus",
             "tags": { "Zone": "Prod" },
@@ -659,7 +659,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "csvsqlprod01-19",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -671,7 +671,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "csvsqlprod09-18",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -683,7 +683,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "csvsqlprod10-18",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -695,7 +695,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "sqlprod0910-ag",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -707,7 +707,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "cspsqlbi1-17",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -719,7 +719,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "sqlprod0304-ag",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -731,7 +731,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "tspsqlbi1-17",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -743,7 +743,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "tsvsqltest04-18",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -755,7 +755,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "tsvsqltest09-18",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -767,7 +767,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "DevStageWebServices",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -781,7 +781,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "ProdWebServices",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -793,7 +793,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "LogRhythmCollectorVIP",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -805,7 +805,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "csvlrcoll03-19",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -817,7 +817,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "csplrdp01-19",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
@@ -829,7 +829,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "azdevlrebeats",
             "location": "westus",
             "tags": { "Zone": "Dev" },
@@ -841,12 +841,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
-            "firewallPolicies": [
-		      {
-		        "id": "/subscriptions/3ed4f01f-6e27-4724-93bf-e1001f78a63f/resourcegroups/ipgroup-rg/providers/Microsoft.Network/firewallPolicies/ipgroup-policy"
-		      }
-             ],
+            "apiVersion": "2020-08-01",
             "name": "azprodlrebeats",
             "location": "westus",
             "tags": { "Zone": "Hub" },
@@ -858,7 +853,7 @@
         },
         {
             "type": "Microsoft.Network/ipGroups",
-            "apiVersion": "2020-05-01",
+            "apiVersion": "2020-08-01",
             "name": "Qualys",
             "location": "westus",
             "tags": { "Zone": "OnPrem" },
