@@ -12,7 +12,7 @@
             "tags": { "Zone": "MixedZones" },
             "properties": {
                 "ipAddresses": [
-                    "172.16.0.0/16"
+                    "172.16.0.0/13"
                 ]
             }
         },
