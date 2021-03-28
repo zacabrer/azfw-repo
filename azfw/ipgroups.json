@@ -842,6 +842,11 @@
         {
             "type": "Microsoft.Network/ipGroups",
             "apiVersion": "2020-05-01",
+            "firewallPolicies": [
+		      {
+		        "id": "/subscriptions/3ed4f01f-6e27-4724-93bf-e1001f78a63f/resourcegroups/ipgroup-rg/providers/Microsoft.Network/firewallPolicies/ipgroup-policy"
+		      }
+             ],
             "name": "azprodlrebeats",
             "location": "westus",
             "tags": { "Zone": "Hub" },
