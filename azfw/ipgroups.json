@@ -12,7 +12,8 @@
             "tags": { "Zone": "FirstTag" },
             "properties": {
                 "ipAddresses": [
-                    "172.16.0.0/16"
+                    "172.16.0.0/16",
+                    "192.2.2.2/32"
                 ]
             }
         },
